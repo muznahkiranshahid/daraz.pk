@@ -1,0 +1,96 @@
+.head{
+    background-color: orangered;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Icon color change on hover */
+.search-btn:hover {
+    color: #ff6600;
+}
+.btnload{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+ /* card styling */
+ .exprice{
+    text-decoration: line-through;
+ }
+ 
+ .card{
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0 0 0 0.16)
+    ;
+   
+
+ }
+.card:hover{
+box-shadow: 0 3px 6px rgba(0 0 0 0.16),
+o 3px 6px rgba(0 0 0 0.23);
+transform: translate(0px , -8px);
+}
+/* images style  */
+.images-container{
+    display: flex;
+}
+.images{
+    border: double 3px #034753;
+    height: 100px;
+    width: 100vh;
+    margin-top: 10px;
+    margin-left: 2PX;
+}
+.images:hover{
+    box-shadow: 0 3px 6px rgba(0 0 0 0.16),
+    o 3px 6px rgba(0 0 0 0.23);
+    transform: translate(0px , -8px);}
+    .navbar-custom {
+        background-color: orangered;
+    }
+    .navbar-custom .navbar-nav .nav-link {
+        color: white;
+    }
+    
+    
+    .header {
+        background-color: orangered;
+        padding: 10px;
+    }
+    .search-bar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .search-input {
+        border: none;
+        border-radius: 0;
+        height: 38px;
+    }
+    .search-icon {
+        background-color: rgb(253, 167, 167);
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 38px;
+        width: 38px;
+        cursor: pointer;
+    }
+    .cart-icon {
+        color: white;
+        margin-left: 10px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    .daraz-logo{
+        padding-left: 100px;
+        height: 40px;
+        width: 60px;
+    }
